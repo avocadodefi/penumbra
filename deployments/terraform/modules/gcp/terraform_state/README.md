@@ -7,7 +7,7 @@ Creates a GCS bucket to house terraform state for a remote backend for any deplo
 ## Bucket Location
 
 For important or production networks, use "US" or similar as the bucket location. This creates a multi-region bucket for
-redundancy. E.g. All saas deployments use multi-region.
+redundancy. E.g. All SaaS deployments use multi-region.
 
 Otherwise, use a specific region like "us-central1" if redundancy is not critical.
 

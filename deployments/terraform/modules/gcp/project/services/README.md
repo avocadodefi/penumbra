@@ -1,10 +1,12 @@
 # Project Services
 
-Allows you to enable one or many Google APIs. Requires project has billing setup or else enabling services may fail.
+Your text is mostly clear, but I'll suggest a few minor revisions for clarity and correctness:
 
-To see all services:
-```shell
+Project Services
+This feature allows you to enable one or several Google APIs. It requires that your project has billing set up, as enabling services may fail without it.
+
+To see all available services, use the following command:
+
 gcloud services list --available
-```
 
-Services are never disabled. You must disable outside of Terraform.
+Note: Services are never disabled automatically. You must disable them manually outside of Terraform.
